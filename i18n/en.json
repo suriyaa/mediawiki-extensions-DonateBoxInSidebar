@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Friesen",
+			"Suriyaa Sundararuban"
+		]
+	},
+	"sidebardonatebox-desc": "Adds a custom donate box to the sidebar",
+	"DONATE": "Donate"
+}
