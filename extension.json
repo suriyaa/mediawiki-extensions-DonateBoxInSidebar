@@ -1,0 +1,22 @@
+{
+	"name": "DonateBoxInSidebar",
+	"version": "1.2.0",
+	"author": [
+		"Suriyaa Sundararuban <contact@suriyaa.tk> (https://about.suriyaa.tk/)"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:DonateBoxInSidebar Documentation",
+	"descriptionmsg": "sidebardonatebox-desc",
+	"license-name": "GPL-2.0+",
+	"MessagesDirs": {
+		"DonateBoxInSidebar": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DonateBoxInSidebar": "DonateBoxInSidebar.i18n.php"
+	},
+	"Hooks": {
+		"SkinBuildSidebar": "DonateBoxInSidebar::efDonateBoxInSidebar"
+	},
+	"manifest_version": 1
+}
