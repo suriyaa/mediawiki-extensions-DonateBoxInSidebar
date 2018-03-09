@@ -15,7 +15,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'DonateBoxInSidebar',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DonateBoxInSidebar',
-	'version' => '1.2.0',
+	'version' => '1.3.0',
 	'author' => "[https://about.suriyaa.tk Suriyaa Sundararuban]",
 	'descriptionmsg' => 'sidebardonatebox-desc',
 );
