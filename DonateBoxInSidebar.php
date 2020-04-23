@@ -15,7 +15,7 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	$wgMessagesDirs['DonateBoxInSidebar'] = __DIR__ . '/i18n';
 	$wgExtensionMessagesFiles['DonateBoxInSidebar'] = __DIR__ . '/DonateBoxInSidebar.i18n.php';
 	// wfWarn(
-	// 'Deprecated PHP entry point used for CentralAuth extension. ' .
+	// 'Deprecated PHP entry point used for DonateBoxInSidebar extension. ' .
 	// 'Please use wfLoadExtension instead, ' .
 	// 'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	// );
