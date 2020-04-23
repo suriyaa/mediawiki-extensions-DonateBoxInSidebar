@@ -21,5 +21,5 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	// );
 	return;
 } else {
-	die( 'This version of the CentralAuth extension requires MediaWiki 1.25+' );
+	die( 'This version of the DonateBoxInSidebar extension requires MediaWiki 1.25+' );
 }
