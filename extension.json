@@ -21,5 +21,8 @@
 	"Hooks": {
 		"SkinBuildSidebar": "DonateBoxInSidebarHooks::onDonateBoxInSidebar"
 	},
+	"config": {
+ 		"DonateBoxInSidebarContent": ""
+	},
 	"manifest_version": 1
 }
