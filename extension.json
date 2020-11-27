@@ -19,7 +19,7 @@
 		"DonateBoxInSidebar": "DonateBoxInSidebar.class.php"
 	},
 	"Hooks": {
-		"SkinBuildSidebar": "DonateBoxInSidebar::efDonateBoxInSidebar"
+		"SkinBuildSidebar": "DonateBoxInSidebar::onDonateBoxInSidebar"
 	},
 	"manifest_version": 1
 }
