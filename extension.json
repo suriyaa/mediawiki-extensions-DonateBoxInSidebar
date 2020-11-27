@@ -15,6 +15,9 @@
 	"ExtensionMessagesFiles": {
 		"DonateBoxInSidebar": "DonateBoxInSidebar.i18n.php"
 	},
+	"AutoloadClasses": {
+		"DonateBoxInSidebar": "DonateBoxInSidebar.class.php"
+	},
 	"Hooks": {
 		"SkinBuildSidebar": "DonateBoxInSidebar::efDonateBoxInSidebar"
 	},
