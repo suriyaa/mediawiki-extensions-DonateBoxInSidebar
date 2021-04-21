@@ -4,7 +4,7 @@
 	"author": [
 		"Suriyaa Sundararuban <contact@suriyaa.tk> (https://about.suriyaa.tk/)"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:DonateBoxInSidebar Documentation",
+	"url": "https://www.mediawiki.org/wiki/Extension:DonateBoxInSidebar",
 	"descriptionmsg": "sidebardonatebox-desc",
 	"license-name": "GPL-2.0+",
 	"MessagesDirs": {
@@ -16,13 +16,10 @@
 		"DonateBoxInSidebar": "DonateBoxInSidebar.i18n.php"
 	},
 	"AutoloadClasses": {
-		"DonateBoxInSidebarHooks": "DonateBoxInSidebarHooks.php"
+		"DonateBoxInSidebar": "DonateBoxInSidebar.class.php"
 	},
 	"Hooks": {
-		"SkinBuildSidebar": "DonateBoxInSidebarHooks::onDonateBoxInSidebar"
-	},
-	"config": {
- 		"DonateBoxInSidebarContent": ""
+		"SkinBuildSidebar": "DonateBoxInSidebar::onDonateBoxInSidebar"
 	},
 	"manifest_version": 1
 }
