@@ -15,8 +15,14 @@
 	"ExtensionMessagesFiles": {
 		"DonateBoxInSidebar": "DonateBoxInSidebar.i18n.php"
 	},
+	"AutoloadClasses": {
+		"DonateBoxInSidebarHooks": "DonateBoxInSidebarHooks.php"
+	},
 	"Hooks": {
-		"SkinBuildSidebar": "DonateBoxInSidebar::efDonateBoxInSidebar"
+		"SkinBuildSidebar": "DonateBoxInSidebarHooks::onDonateBoxInSidebar"
+	},
+	"config": {
+ 		"DonateBoxInSidebarContent": ""
 	},
 	"manifest_version": 1
 }
